@@ -1,0 +1,23 @@
+
+            .blue{
+                color: aqua;
+            }
+            #orange{
+               color: orange;
+            }
+            .yellow{
+                color: yellow;
+            }
+            #other_orange{
+                color:orange
+            }
+            .h1{
+                color: #000;
+            }
+            div p{
+                color: blanchedalmond;
+                background-color: blueviolet;
+            }
+            div button{
+                color: gold;
+            }

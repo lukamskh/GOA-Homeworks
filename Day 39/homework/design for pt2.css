@@ -1,0 +1,55 @@
+p {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+.style1 {
+    background-color: #ff5733;
+    border: 2px dotted #ffffff;
+}
+
+.style2 {
+    background-color: #33ff57; 
+    border: 2px dashed #ffffff;
+}
+
+.style3 {
+    background-color: #3357ff; 
+    border: 2px double #ffffff; 
+}
+
+.style4 {
+     background-color: #ff33c4;
+    border: 2px wavy #ffffff;
+}
+
+.style5 {
+    background-color: #33ffc4;
+    border: 2px solid #ffffff; 
+}
+
+.style6 {
+    background-color: #f0e68c;
+    border: 4px dotted #000000;
+}
+
+.style7 {
+    background-color: #68c4e8;
+    border: 4px dashed #000000; 
+}
+
+.style8 {
+    background-color: #e8a568;
+    border: 4px double #000000;
+}
+
+.style9 {
+    background-color: #68e8a5;
+    border: 4px groove #000000;
+}
+
+.style10 {
+    background-color: #e04646;
+    border: 4px ridge #000000;
+}
