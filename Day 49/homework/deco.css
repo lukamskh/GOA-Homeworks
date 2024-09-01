@@ -1,0 +1,8 @@
+.image-button {
+    width: 50%;;
+    height: 20%;
+    background-image: url(https://img.freepik.com/premium-vector/delicious-food-restaurant-web-banner-template_560518-151.jpg);
+    background-size:cover;
+    border: none;
+    cursor: pointer;
+}
