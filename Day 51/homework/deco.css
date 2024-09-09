@@ -1,0 +1,123 @@
+body{
+    background-color: hsl(218, 22%, 67%);
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.top{
+    background-color: hsl(204, 43%, 93%);
+    grid-column-start: 3;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+.h2{
+    font-size: 40px;
+    font-weight: 900;
+    color:  hsla(179, 63%, 28%, 0.967);
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.rhime{
+    font-size: 32px;
+    color: hsl(71, 73%, 54%);
+    grid-column-start:2 ;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 9;
+}
+.lame-info{
+    font-size: 26px;
+    color: rgb(130, 130, 130);
+    grid-column-start:2 ;
+    grid-column-end: 10;
+    grid-row-start: 6;
+    grid-row-end: 11;
+}
+.bottom-left{
+    background-color: hsl(179, 62%, 43%);
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+.random-class{
+    font-weight: 530;
+    font-size: 30px;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.price{
+    font-weight: 540;
+    font-size: 40px;
+    color: white;
+    grid-column-start: 3;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 11;
+}
+.time-period{
+    font-size: 24px;
+    color: rgb(120, 120, 120);
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 5;
+    grid-row-end: 11;
+}
+.pay-me{   
+    font-size: 24px;
+    color: rgb(181, 181, 181);
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 6;
+    grid-row-end: 11;
+}
+.sign-up{
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    color: white;
+    background-color:  hsl(71, 73%, 54%);
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 8;
+    grid-row-end: 10;
+}
+.bottom-right{
+    background-color:  hsla(179, 62%, 43%, 0.519);
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+.Why-not{
+    font-weight: 540;
+    font-size: 33px;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 10;
+}
+.tutorial{
+    font-size: 20px;
+    color: rgb(109, 109, 109);
+    grid-column-start: 2;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 10;
+}

@@ -1,0 +1,41 @@
+.rotate:active{
+    transform:rotate(20deg)
+}
+.rotate{
+    background-color: rgb(125, 36, 119);
+    width: 200px;
+    height: 200px;
+}
+.scale{
+    background-color: rgb(152, 156, 103);
+    width: 200px;
+    height: 200px;
+}
+.scale:active{
+    transform: scale(2);
+}
+.translate{
+    background-color: rgb(111, 186, 174);
+    width: 200px;
+    height: 200px;
+}
+.translate:active{
+    transform: translate(10px, 43px);
+}
+.skew{
+    background-color: rgb(147, 72, 31);
+    width: 200px;
+    height: 200px;
+}
+.skew:active{
+    transform: skew(-20deg);
+}
+.last-one{
+    background-color: rgb(73, 31, 147);
+    width: 200px;
+    height: 200px;
+}
+.last-one:active{
+    transform: rotate(45deg);
+    transform-origin: top right;
+}

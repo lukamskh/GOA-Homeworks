@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+.cube{
+    left: 20px;
+    background-color: aquamarine;
+    width: 80px;
+    height: 79px;
+    position: absolute;
+    transform: translate(20px);
+}
