@@ -18,7 +18,7 @@ div{
 }
 div:hover{
     transform: rotate(90deg);
-    border-radius: 100px;
+    border-radius: 120px;
 }
 p{
     font-size: 35px;
