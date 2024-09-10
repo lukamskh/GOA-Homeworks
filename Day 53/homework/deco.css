@@ -1,0 +1,25 @@
+body{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+div{
+    border: 10px solid white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    transition-duration: 777ms;
+}
+div:hover{
+    transform: rotate(90deg);
+    border-radius: 100px;
+}
+p{
+    font-size: 35px;
+}
