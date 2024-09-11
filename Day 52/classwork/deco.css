@@ -1,11 +1,17 @@
 body{
     background-color: black;
+    text-align: center;
 }
 .cube{
-    left: 20px;
+    position: relative;
+    bottom: -90px;
+    left: 200px;
     background-color: aquamarine;
     width: 80px;
     height: 79px;
-    position: absolute;
+    transition-duration: 300ms;
+}
+.cube:hover{
     transform: translate(20px);
+    transform: scale(2);
 }

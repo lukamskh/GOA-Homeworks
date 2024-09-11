@@ -1,0 +1,11 @@
+
+div{
+    position: fixed;
+    text-align: right;
+    bottom: 30;
+    right: 0;
+}
+img{
+    height: 60px;
+    width: 105px;
+}
