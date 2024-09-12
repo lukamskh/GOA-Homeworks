@@ -11,7 +11,42 @@ body{
     height: 79px;
     transition-duration: 300ms;
 }
-.cube:hover{
-    transform: translate(20px);
+.cube:active{
     transform: scale(2);
+}
+.rotate{
+    position: relative;
+    bottom: -200px;
+    left: 200px;
+    background-color: rgb(92, 137, 48);
+    width: 80px;
+    height: 79px;
+    transition-duration: 300ms;
+}
+.rotate:active{
+    transform: rotate(90deg);
+}
+.translate{
+    position: relative;
+    bottom: -27px;
+    left: 200px;
+    background-color: rgb(187, 51, 119);
+    width: 80px;
+    height: 79px;
+    transition-duration: 300ms;
+}
+.translate:active{
+    transform: translate(200px);
+}
+.skew{
+    position: relative;
+    bottom: -135px;
+    left: 200px;
+    background-color: aquamarine;
+    width: 80px;
+    height: 79px;
+    transition-duration: 300ms;
+}
+.skew:active{
+    transform: skew(20deg, 20deg);
 }
