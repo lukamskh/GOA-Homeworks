@@ -130,22 +130,22 @@ h2{
         color: greenyellow;
     }
     97% {
-        width: 1215px;
+        width: 1580px;
         background-color: green;
         color: green;
     }
     98% {
-        width: 1345px;
+        width: 1750px;
         background-color: green;
         color: green;
     }
     99% {
-        width: 1345px;
-        background-color: red;
-        color: black;
+        width: 1900px;
+        background-color: green;
+        color: green;
     }
     100%{
-        width: 1345px;
+        width: 1950px;
         background-color: red;
         color: black;
     }
