@@ -1,0 +1,55 @@
+main{
+    display: flex;
+    background-color: rgb(70, 70, 70);
+    justify-content: space-evenly;
+}
+.logo{
+    color: rgb(219, 219, 219);
+    font-weight: 700;
+    text-align: start;
+    width: 200px;
+}
+.decoration{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    color: rgb(219, 219, 219);
+}
+.buton{
+    color: white;
+    background-color: rgb(61, 182, 248);
+    border-radius: 20px;
+    width: 90px;
+    height: 45px;
+    bottom: 0px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+    main{
+        display: flex;
+        flex-direction: column;
+        background-color: green;
+        align-items: center;
+    }
+    .logo{
+        align-self: center;
+        color: rgb(219, 219, 219);
+        font-weight: 700;
+        text-align: start;
+        width: 100px;
+    }
+    .decoration{
+        display: flex;
+        gap: 10px;
+        text-align: center;
+    }
+    .buton{
+        bottom: 5px;
+        position: relative;
+        color: white;
+        background-color: rgb(61, 182, 248);
+        border-radius: 20px;
+        width: 150px;
+        height: 45px;
+    }
+}
