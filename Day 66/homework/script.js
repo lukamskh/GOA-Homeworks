@@ -87,4 +87,3 @@ function is_it_palindrome(word) {
     }
 }
 is_it_palindrome("luka")
-is_it_palindrome("racecar")
