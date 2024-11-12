@@ -62,7 +62,7 @@ class Product {
 class User {
     constructor(username, contact) {
         this.username = username;
-        this.contact = contact; // This is expected to be an object with email and phone.
+        this.contact = contact;
     }
 
     getContactInfo() {
@@ -73,7 +73,7 @@ class User {
 
 class Library {
     constructor(books) {
-        this.books = books; // Array of book objects
+        this.books = books;
     }
 
     listBooks() {
@@ -86,7 +86,7 @@ class Library {
 
 class Cart {
     constructor() {
-        this.items = []; // Empty items array
+        this.items = [];
     }
 
     addItem(item) {
@@ -102,7 +102,7 @@ class Cart {
 class Student {
     constructor(name, marks) {
         this.name = name;
-        this.marks = marks; // Array of numbers
+        this.marks = marks;
     }
 
     hasPassed() {
