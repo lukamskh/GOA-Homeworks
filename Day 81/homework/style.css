@@ -1,0 +1,12 @@
+#btn1{
+    background-color: aqua;
+    color: black; /* Text color */
+    border: none; /* Removes the border */
+    padding: 10px 20px; /* Adds padding */
+    font-size: 16px; /* Increases font size */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: opacity 1s; /* Smooth transition for opacity */
+}
+#btn1.active{
+    opacity: 1;
+}
