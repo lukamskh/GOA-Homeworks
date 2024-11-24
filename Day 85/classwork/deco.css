@@ -1,5 +1,21 @@
 body{
-    text-align: center;
-    align-content: center;
-    align-self: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#div1{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+}
+#div2{
+    position: relative;
+    height: 120px;
+    width: 120px;
+    background-color: yellowgreen;
+    z-index: -1;
+}
+#checkbox{
+    top: 20px;
 }
